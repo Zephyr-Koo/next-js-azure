@@ -11,12 +11,12 @@ function Experience({ experience, sessionId }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Message</title>
+        <title>Sticky Experience</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1>{experience}</h1>
+        <h1>Experience {experience}</h1>
       </main>
     </div>
   );
